@@ -4,8 +4,35 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+@ -0,0 +1,56 @@
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Used by dotenv library to load environment variables.
+# .env
+
+# Ignore Byebug command history file.
+.byebug_history
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
 # Ignore bundler config.
 /.bundle
+/vendor/bundle
+/lib/bundler/man/
 
 # Ignore all environment files (except templates).
 /.env*
@@ -33,3 +60,8 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+/node_modules/*
+/vendor
+/test
+/storage

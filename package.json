@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "esbuild-rails": "^1.0.7"
+  },
+  "scripts": {
+    "build": "node esbuild.config.mjs"
+  }
+}
